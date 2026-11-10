@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הזמנה - LOFT</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/order.css">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+</head>
+
+<body>
+<header>
+    <a href="../index.html" class="logo">
+        <img src="../assets/files/images/LOGO.png" alt="LOFT">
+    </a>
+    <a href="../catalog/loft-catalog.pdf" target="_blank" class="catalog-header-button">
+    קטלוג מוצרים
+</a>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">ראשי</a></li>
+                <li><a href="Armchairs-Sofas">כורסאות וספות</a></li>
+            <li><a href="bedroom.html">חדר שינה</a></li>
+            <li><a href="dining.html">פינת אוכל</a></li>
+            <li><a href="about.html">אודות</a></li>
+        </ul>
+    </nav>
+</header>
+        <!-- כאן נוסיף את התפריט בהמשך -->
+    </header>
+
+    <main>
+<main>
+    <section class="order-section">
+        <h1>בואו להזמין את הרהיט שלכם!</h1>
+        <p>השאירו פרטים ונחזור אליכם בהקדם לתיאום ההזמנה.</p>
+<form action="success.html" method="get">
+    <label for="fullName">שם מלא:</label>
+    <input type="text" id="fullName" name="fullName" required>
+    <label for="phone">מספר טלפון:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <label for="email">כתובת מייל:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="deliveryDate">תאריך אספקה מבוקש:</label>
+    <input type="date" id="deliveryDate" name="deliveryDate">
+    <label for="product">איזה רהיט תרצו להזמין?</label>
+    <select id="product" name="product" required>
+    <option value="">בחרו רהיט</option>
+    <option value="sofa">ספה</option>
+    <option value="armchair">כורסא</option>
+    <option value="bed">מיטה</option>
+    <option value="dining">פינת אוכל</option>
+    <option value="other">אחר</option>
+    <label for="message">הערות נוספות:</label>
+</select>
+<textarea id="message" name="message" rows="4"
+    placeholder="כתבו כאן פרטים נוספים על ההזמנה..."></textarea>
+    <button type="submit" class="order-button">
+    שליחת הזמנה
+</button>
+
+</form>
+    </section>
+</main>
+    </main>
+
+  <footer>
+    <div class="footer-content">
+        <h3>LOFT</h3>
+        <p>הבית שלך, הסטייל שלנו!</p>
+        <p>רהיטים ועיצוב שמשלבים יופי, איכות ונוחות</p>
+    </div>
+    
+
+         <div class="footer-about">
+    <h3>עוד קצת עלינו</h3>
+    <a href="about.html">אודות</a>
+       </div>
+           <div class="footer-bottom">
+        <p>כל הזכויות שמורות © LOFT</p>
+    </div>
+    </footer>
+</body>
+</html>
