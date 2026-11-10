@@ -80,3 +80,22 @@
     display: inline-block;
     margin-top: 20px;
 }
+
+/* התאמה למסכים קטנים */
+@media (max-width: 600px) {
+    .order-section,
+    .success-section {
+        width: 90%;
+        padding: 25px 15px;
+        margin: 30px auto;
+    }
+
+    .order-section h1,
+    .success-section h1 {
+        font-size: 24px;
+    }
+
+    .success-section p {
+        font-size: 16px;
+    }
+}
