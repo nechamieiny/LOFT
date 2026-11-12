@@ -99,7 +99,8 @@ header .order-button {
 .hero {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;
+    height: calc(100vh - 80px);
+    min-height: 400px;
     overflow: hidden;
 }
 
@@ -109,7 +110,7 @@ header .order-button {
     height: 100%;
     top: 0;
     left: 0;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .hero h1 {
@@ -297,4 +298,8 @@ img, video {
     .about-section {
         padding: 20px;
     }
+    .hero {
+    height: calc(100svh - 130px);
+    min-height: 350px;
+    }    
 }
